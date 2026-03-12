@@ -57,7 +57,7 @@ public class AutoInstrumentor : IDisposable
         }
         
         var name = assembly.GetName().Name;
-        if (name == "System.Data")
+        if (name == "System.DataDataData")
         {
             _sqlClientInstrumentation.Instrument(assembly);
             return;
